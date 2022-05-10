@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding-bottom: 30px;
+}
+header{
+    background-color: #313131;
+    height: 80px;
+}
+header .container{
+    display: flex;
+    width: 100%;
+    max-width: 990px;
+    margin: auto;
+    line-height: 80px;
+    justify-content: space-between;
+    
+}
+.logo h1{
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.menu li{
+    padding-right: 5px;
+    flex-direction: row;
+    justify-content: right;
+}
+#corpo{
+    background-image: url('plano_de_fundo.jpg');
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+
+}
+#corpo .container{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 60px;
+}
+.video{
+    padding-top: 20px;
+}
+.box .titulo_desc{
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+
+
+}
+.titulo_desc, .desc{
+    margin-left: 10px;
+    color: #ffffff;
+}
+.desc p{
+    line-height: 1.8;
+    margin-top: 0;
+}
+.btn a{
+
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 7px 30px 10px 20px;
+    border: 1px solid rgb(187, 236, 240);
+    border-radius:4px ;
+    color: white;
+    background-color: #3b8b9b;
+    font-size: 15px;
+    
+}
+.btn img{
+    position: relative;
+    top: 5px;
+}
+#subcorpo .container{
+    padding-top: 40px;
+}
+.titulo,.desc1{
+    text-align: center;
+    
+}
+.titulo{
+    font-family: 'Montez', cursive;
+    font-size: 70px;
+    color: #313131;
+}
+.desc1{
+    color: #7e7e7e;
+}
+#rodape .container{
+    width: 100%;
+    max-width: 990px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+.item1,.item2,.item3{
+    flex:1;
+    text-align: center;
+    margin: 20px;
+}
+.item1, .item3{
+    padding-top: 10px;
+}
+.titulo_item1, .titulo_item2, .titulo_item3{
+    font-family: 'Montez', cursive;
+    font-size: 30px;
+}
+.titulo_item1, .titulo_item3{
+    margin-top: 19px;
+}
+#rodape .desc{
+    color: #7e7e7e;
+
+
+}
